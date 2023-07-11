@@ -346,6 +346,10 @@ i {
     position: fixed;
     bottom: 0em;
   }
+  .desenvolvedor {
+    text-align: center;
+    padding: 1em 1em;
+  }
 }
 body {
   font-family: "Sora", sans-serif;
