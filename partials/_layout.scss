@@ -95,3 +95,44 @@
            
         }
 }
+
+//ABOUT
+.about{
+    background-color: $primary-normal;
+    overflow: hidden;
+    color: $white-normal;
+}
+
+.about-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    padding: 2em 1.5em 4em 1.5em;
+    img{
+        max-width: 570px;
+        opacity: 0.9;
+    }
+}
+
+.about-content div{
+    flex: 1;;
+}
+
+.about-description{
+    h2{
+        font-size: 2.5rem;
+        margin-bottom: 1.5em;
+    }
+
+    p{
+        margin-bottom: 1em;
+        line-height: 150%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about-content{
+        flex-direction: column;
+    }
+}
